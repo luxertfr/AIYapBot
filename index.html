@@ -8,25 +8,34 @@
   </head>
   <body>
     <header>
-
+      <nav class="navigation">
+        <ul>
+          <li>Home</li>
+          <li>Other project</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
     </header>
-    <section class="description">
-      <h1>Welcome to YapBot !</h1>
-      <p>You can select the character you want for your AI Bot and then talk with him.</p>
-    </section>
-    <section class="output">
-    </section>
-    <section class="input">
-      <div>
-        <input type="text">
-        <label for="character">Choose a character :</label>
-          <select id="choice" name="choice">
-            <option value="oldMenHappy">An old men happy</option>
-            <option value="babySad">A baby sad</option>
-            <option value="womanAngry">An angry woman</option>
-          </select>
-      </div>
-    </section>
+    <!-- <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div> -->
+    <main>
+        <h1 class="title">Welcome to YapBot !</h1>
+        <p>You can select the character you want for your AI Bot and then talk with him.</p>
+        <div class="output"></div>
+        <div class="input">
+          <input type="text">
+          <label for="character">Choose a character :</label>
+            <select id="choice" name="choice">
+              <option value="oldMenHappy">An old men happy</option>
+              <option value="babySad">A baby sad</option>
+              <option value="womanAngry">An angry woman</option>
+            </select>
+        </div>
+    </main>
+
     <script type="module" src="/src/frontend/main.js"></script>
   </body>
 </html>
